@@ -2,16 +2,13 @@ aws-profile
 ==========
 
 *Make AWS CLI profile switch easy, while working with many accounts.*
+*The bash exporter is really useful to avoid running commands in the wrong account*
 
 ---
 
 **NB!** *aws-profile* works **only** with Amazon AWSCLI (Python) package.
 
-Java-based version is not supported (for now).
-
 For more details, please refer to [aws.amazon.com/cli](http://aws.amazon.com/cli/)
-
-*Note: script was tested only in Bash* 
 
 Installation
 ---
@@ -19,6 +16,7 @@ Installation
 Install AWS CLI Tools:
 
 	$ pip install awscli
+	$ sudo apt-get install php5-cli
 	
 Install aws-profile:
 
