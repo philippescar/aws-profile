@@ -26,7 +26,7 @@ unset _caller
 # NB! No exit after, only return
 
 profile="${1:-}"
-config_file=$(echo "${2:-${AWS_CONFIG_FILE:-~/.aws/config}}" | sed "s:~:$HOME:" );
+config_file=$(echo "${2:-${AWS_CONFIG_FILE:-~/.aws/credentials}}" | sed "s:~:$HOME:" );
 
 export config_file
 export profile_name=${profile:-$AWS_DEFAULT_PROFILE}
