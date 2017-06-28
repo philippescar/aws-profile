@@ -20,11 +20,11 @@ Install AWS CLI Tools:
 	
 Install aws-profile:
 
-	$ curl -sSL https://raw.github.com/jaymecd/aws-profile/master/install.sh | sh
+	$ curl -sSL https://raw.github.com/philippescar/aws-profile/master/install.sh | sh
 	
 Or via clone:
 
-	$ git clone https://github.com/jaymecd/aws-profile.git
+	$ git clone https://github.com/philippescar/aws-profile.git
 	$ cp aws-profile/aws-* /usr/local/bin
 	
 Update resource file
